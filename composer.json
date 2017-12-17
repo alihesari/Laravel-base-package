@@ -1,6 +1,6 @@
 {
     "name": "toolkito/lara_base",
-    "description": "Larabase (Laravel base package) will help you to create a Laravel package.",
+    "description": "Larabase (Laravel base package) will help you to create a Laravel package based on Laravel 5.5",
     "license": "MIT",
     "require": {},
     "authors": [
