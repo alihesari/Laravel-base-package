@@ -7,7 +7,7 @@ use Illuminate\Support\ServiceProvider;
 class LarabaseServiceProvider extends ServiceProvider {
 
     public function boot() {
-        // Load your  file
+        // Load package routes
         $this->loadRoutesFrom(__DIR__ . '/../routes/web.php');
 
         // Publish package's configuration file to the application
