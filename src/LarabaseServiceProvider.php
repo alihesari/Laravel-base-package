@@ -13,7 +13,7 @@ class LarabaseServiceProvider extends ServiceProvider {
         // Publish package's configuration file to the application
         $this->publishes([
             __DIR__.'/../config/lara_base.php' => config_path('lara_base.php'),
-        ], 'larabase');
+        ], 'lara_base');
 
         // Migrations
         $this->loadMigrationsFrom(__DIR__.'/../databases/migrations');
@@ -38,6 +38,6 @@ class LarabaseServiceProvider extends ServiceProvider {
     }
 
     public function provides() {
-        return ['larasap'];
+        return ['lara_base'];
     }
 }
