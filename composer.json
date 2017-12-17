@@ -1,0 +1,28 @@
+{
+    "name": "toolkito/lara_base",
+    "description": "Larabase (Laravel base package) will help you to create a Laravel package.",
+    "license": "MIT",
+    "require": {},
+    "authors": [
+        {
+            "name": "Ali Hesari",
+            "email": "alihesari.com@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Toolkito\\Larabase\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Toolkito\\Larabase\\LarabaseServiceProvider"
+            ],
+            "aliases": {
+                "Larasap": "Toolkito\\Larabase\\LarabaseFacade"
+            }
+        }
+    }
+}
