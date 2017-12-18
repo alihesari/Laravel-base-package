@@ -12,7 +12,7 @@ Clone it from Github and put it inside your `libraries` folder:
 $ git clone https://github.com/toolkito/Laravel-base-package.git
 ```
 
-Via Composer
+Via Composer:
 
 ``` bash
 composer require toolkito/lara_base
