@@ -15,5 +15,5 @@ $ git clone https://github.com/toolkito/Laravel-base-package.git
 Via Composer:
 
 ``` bash
-composer require toolkito/lara_base
+composer require toolkito/larabase
 ```
