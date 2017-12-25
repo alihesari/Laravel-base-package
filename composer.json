@@ -4,7 +4,7 @@
     "license": "MIT",
     "require": {
         "php" : "~7.0",
-        "illuminate/support": "~5.5.0",
+        "illuminate/support": "~5.5.0"
     },
     "keywords": [
         "laravel",
