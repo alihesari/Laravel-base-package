@@ -5,8 +5,6 @@
  * Test route
  */
 Route::get('lara_base', function(){
-    $config = Config::get('lara_base.TestLaraBaseConfig');
-    $database = \Toolkito\Larabase\Models\TestModel::all();
-
-    return view('lara_base::test',compact('lang','config','database'));
+    $test_result = Toolkito\Larabase\Larabase::testFunction();
+    return view('lara_base::test',compact('test_result'));
 });

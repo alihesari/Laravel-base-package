@@ -1,3 +1,1 @@
-{{ $config }}
-<br>
-{{ $database[0]->value }}
+{{ $test_result }}
