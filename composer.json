@@ -6,13 +6,9 @@
         "php" : "~7.0",
         "illuminate/support": "~5.5.0"
     },
-    "require-dev": { 
-        "phpunit/phpunit": "dev-hhvm" 
+    "require-dev": {
+        "phpunit/phpunit": "5.5.*"
     },
-    "keywords": [
-        "laravel",
-        "package"
-    ],
     "authors": [
         {
             "name": "Ali Hesari",
@@ -36,6 +32,6 @@
             }
         }
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true
 }
