@@ -2,14 +2,22 @@
     "name": "toolkito/larabase",
     "description": "Larabase (Laravel base package) will help you to create a Laravel package based on Laravel 5.5",
     "license": "MIT",
-    "require": {},
+    "require": {
+        "php" : "~7.0",
+        "illuminate/support": "~5.5.0",
+    },
+    "keywords": [
+        "laravel",
+        "package"
+    ],
     "authors": [
         {
             "name": "Ali Hesari",
-            "email": "alihesari.com@gmail.com"
+            "email": "alihesari.com@gmail.com",
+            "homepage": "https://alihesari.com",
+            "role": "Developer"
         }
     ],
-    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "Toolkito\\Larabase\\": "src/"
@@ -24,5 +32,7 @@
                 "Larasap": "Toolkito\\Larabase\\LarabaseFacade"
             }
         }
-    }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }
