@@ -1,8 +1,6 @@
 <?php
 
-use Tests\TestCase;
-
-class LarabaseTest extends TestCase
+class LarabaseTest extends PHPUnit_Framework_TestCase
 {
     /**
      * A basic test example.
