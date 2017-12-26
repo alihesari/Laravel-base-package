@@ -1,4 +1,7 @@
 # Laravel-base-package
+
+![](https://travis-ci.org/toolkito/Laravel-base-package.svg?branch=master)
+
 Larabase (Laravel base package) will help you to create a Laravel package based on Laravel 5.5.
 
 For more information read Laravel Package Development guide: 
