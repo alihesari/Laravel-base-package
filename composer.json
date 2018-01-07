@@ -31,5 +31,6 @@
                 "Larasap": "Toolkito\\Larabase\\LarabaseFacade"
             }
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
